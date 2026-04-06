@@ -3,7 +3,7 @@ import schoolimage from "../images/schoolimage.jpeg";
 export const Bio = {
   name: "Nadin C",
   roles: [
-    "Full Stack Developer",
+    "FrontEnd Developer",
     // "Android Developer",
     // "UI/UX Designer",
     "Programmer",
@@ -12,7 +12,7 @@ export const Bio = {
     "I am a motivated and adaptable individual with a strong drive to embrace new challenges and opportunities. Passionate about continuous learning, I am committed to delivering high-quality results and contributing meaningfully. With a positive attitude and a growth-oriented mindset, I am ready to make a lasting impact and achieve remarkable outcomes. ",
   github: "https://github.com/nadin-c",
   resume:
-    "https://drive.google.com/file/d/13kM50BZzwhVybstzr7V4vZq-PYmH_0u2/view?usp=sharing",
+    "https://drive.google.com/file/d/113xYXHPqLWGBnN9sddK43s9eSoq6Fypl/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/nadin-c-694568259/",
   twitter: "https://x.com/nadin7775429?t=NiFC6A4NRlle4FuS9fWeJQ&s=09",
   insta: "https://www.instagram.com/",
@@ -190,93 +190,126 @@ export const skills = [
 ];
 
 export const experiences = [
-
   {
-    "id": 0,
-    "title": "1st Prize in Innoventures",
-    "event": "Innoventures 2024",
-    "date": "October 2024",
-    "description": "Awarded for the Project Presentation of the Data Download Duplication Alert System (DDAS).",
-    "skills": ["Problem Solving", "Project Management", "Software Development"],
-    "image": "https://your-image-url.com/innoventures_image.jpg",
-    "certificate_link": "https://drive.google.com/file/d/18wRM0ipFpAPqMtDA-W33vx-O8vmj2g73/view"
+    id: 0,
+    title: "1st Prize in Innoventures",
+    event: "Innoventures 2024",
+    date: "October 2024",
+    description:
+      "Awarded for the Project Presentation of the Data Download Duplication Alert System (DDAS).",
+    skills: ["Problem Solving", "Project Management", "Software Development"],
+    image: "https://your-image-url.com/innoventures_image.jpg",
+    certificate_link:
+      "https://drive.google.com/file/d/18wRM0ipFpAPqMtDA-W33vx-O8vmj2g73/view",
   },
 
   {
-    "id": 1,
-    "title": "1st Prize in Modern Business Card Paper Presentation",
-    "event": "40th Inception Day at KEC",
-    "date": "October 2024",
-    "description": "Secured 1st place for presenting an innovative Modern Business Card concept during the 40th Inception Day at KEC.",
-    "skills": ["Public Speaking", "Concept Design", "Innovative Thinking"],
-    "image": "https://your-image-url.com/business_card_image.jpg",
-    "certificate_link": "https://drive.google.com/file/d/194Em-sbs2wikkdISoIbDRGOcpx0oCHyl/view"
+    id: 1,
+    title: "1st Prize in Modern Business Card Paper Presentation",
+    event: "40th Inception Day at KEC",
+    date: "October 2024",
+    description:
+      "Secured 1st place for presenting an innovative Modern Business Card concept during the 40th Inception Day at KEC.",
+    skills: ["Public Speaking", "Concept Design", "Innovative Thinking"],
+    image: "https://your-image-url.com/business_card_image.jpg",
+    certificate_link:
+      "https://drive.google.com/file/d/194Em-sbs2wikkdISoIbDRGOcpx0oCHyl/view",
   },
 
   {
-    "id": 2,
-    "title": "1st Prize in KEC Ideathon",
-    "event": "KEC Ideathon 2024",
-    "date": "November 2024",
-    "description": "Awarded for winning 1st prize in KEC Ideathon 2024 with innovative technological solutions.",
-    "skills": ["Ideation", "Collaboration", "Innovation"],
-    "image": "https://your-image-url.com/ideathon_prize_image.jpg",
-    "certificate_link": "https://drive.google.com/file/d/190ek_XDHBbLknXnR43lQ--zECV93ZZqo/view"
+    id: 2,
+    title: "1st Prize in KEC Ideathon",
+    event: "KEC Ideathon 2024",
+    date: "November 2024",
+    description:
+      "Awarded for winning 1st prize in KEC Ideathon 2024 with innovative technological solutions.",
+    skills: ["Ideation", "Collaboration", "Innovation"],
+    image: "https://your-image-url.com/ideathon_prize_image.jpg",
+    certificate_link:
+      "https://drive.google.com/file/d/190ek_XDHBbLknXnR43lQ--zECV93ZZqo/view",
   },
 
   {
-    "id": 3,
-    "title": "1st Prize in KEC Hackathon",
-    "event": "KEC Hackathon 2024",
-    "date": "April 2024",
-    "description": "Secured 1st place under the SAP Point Calculator problem statement by designing an efficient and effective solution.",
-    "skills": ["Hackathon Participation", "Coding", "SAP Integration"],
-    "image": "https://your-image-url.com/hackathon_image.jpg",
-    "certificate_link": "https://drive.google.com/file/d/19IHS9hLvcocv013QwbftOIBDihHVI2d8/view"
+    id: 3,
+    title: "1st Prize in KEC Hackathon",
+    event: "KEC Hackathon 2024",
+    date: "April 2024",
+    description:
+      "Secured 1st place under the SAP Point Calculator problem statement by designing an efficient and effective solution.",
+    skills: ["Hackathon Participation", "Coding", "SAP Integration"],
+    image: "https://your-image-url.com/hackathon_image.jpg",
+    certificate_link:
+      "https://drive.google.com/file/d/19IHS9hLvcocv013QwbftOIBDihHVI2d8/view",
   },
   {
-    "id": 4,
-    "title": "3rd Prize in KEC Ideathon 2023",
-    "event": "KEC Ideathon 2023",
-    "date": "December 2023",
-    "description": "Won 3rd prize for presenting 'TourEase,' an innovative idea to enhance the travel and tourism experience using technology.",
-    "skills": ["Creative Thinking", "Travel Technology", "Pitch Presentation"],
-    "image": "https://your-image-url.com/toureease_image.jpg",
-    "certificate_link": "https://drive.google.com/file/d/18tNhGiU6Q0RE78Vq5fryn9f6PoSQcHTk/view"
+    id: 4,
+    title: "3rd Prize in KEC Ideathon 2023",
+    event: "KEC Ideathon 2023",
+    date: "December 2023",
+    description:
+      "Won 3rd prize for presenting 'TourEase,' an innovative idea to enhance the travel and tourism experience using technology.",
+    skills: ["Creative Thinking", "Travel Technology", "Pitch Presentation"],
+    image: "https://your-image-url.com/toureease_image.jpg",
+    certificate_link:
+      "https://drive.google.com/file/d/18tNhGiU6Q0RE78Vq5fryn9f6PoSQcHTk/view",
   },
   {
-    "id": 5,
-    "title": "Participation in Paper Presentation on TourEase",
-    "event": "Coimbatore Institute of Technology",
-    "date": "January 2024",
-    "description": "Participated in a paper presentation on 'TourEase,' showcasing innovative ideas to improve travel and tourism through technology.",
-    "skills": ["Research", "Presentation", "Industry Awareness"],
-    "image": "https://your-image-url.com/toureease_presentation_image.jpg",
-    "certificate_link": "https://drive.google.com/file/d/19HNzX6wlFHMNSAWZwKm7380gOmgYfzDm/view"
-  },
-
-  {
-    "id": 6,
-    "title": "Proof of Concept (POC) Demonstration",
-    "event": "KEC Ideathon 2024",
-    "date": "November 2024",
-    "description": "Recognized for successfully demonstrating a Proof of Concept (POC) in KEC Ideathon 2024.",
-    "skills": ["Proof of Concept", "Technical Demonstration", "Teamwork"],
-    "image": "https://your-image-url.com/poc_image.jpg",
-    "certificate_link": "https://drive.google.com/file/d/19N8UdIHrWxUZn0dOQTOmhvIi8qX-1K_r/view"
+    id: 5,
+    title: "Participation in Paper Presentation on TourEase",
+    event: "Coimbatore Institute of Technology",
+    date: "January 2024",
+    description:
+      "Participated in a paper presentation on 'TourEase,' showcasing innovative ideas to improve travel and tourism through technology.",
+    skills: ["Research", "Presentation", "Industry Awareness"],
+    image: "https://your-image-url.com/toureease_presentation_image.jpg",
+    certificate_link:
+      "https://drive.google.com/file/d/19HNzX6wlFHMNSAWZwKm7380gOmgYfzDm/view",
   },
 
   {
-    "id": 7,
-    "title": "Techno-Cultural Fest",
-    "event": "Ruby Year Celebration - KEC",
-    "date": "January 23-24, 2025",
-    "description": "Won 4th Price in the Techno-Cultural Fest Ruby Year Celebration under the college level Software category at Kongu Engineering College.",
-    "skills": ["Event Participation", "Technical Skills", "Collaboration"],
-    "image": "https://drive.google.com/file/d/1neMfE9zdE7IPfJQ6XmuXZcq-3pn3_BfA/view",
-    "certificate_link": "https://drive.google.com/file/d/1neMfE9zdE7IPfJQ6XmuXZcq-3pn3_BfA/view"
-  }
+    id: 6,
+    title: "Proof of Concept (POC) Demonstration",
+    event: "KEC Ideathon 2024",
+    date: "November 2024",
+    description:
+      "Recognized for successfully demonstrating a Proof of Concept (POC) in KEC Ideathon 2024.",
+    skills: ["Proof of Concept", "Technical Demonstration", "Teamwork"],
+    image: "https://your-image-url.com/poc_image.jpg",
+    certificate_link:
+      "https://drive.google.com/file/d/19N8UdIHrWxUZn0dOQTOmhvIi8qX-1K_r/view",
+  },
 
+  {
+    id: 7,
+    title: "Techno-Cultural Fest",
+    event: "Ruby Year Celebration - KEC",
+    date: "January 23-24, 2025",
+    description:
+      "Won 4th Price in the Techno-Cultural Fest Ruby Year Celebration under the college level Software category at Kongu Engineering College.",
+    skills: ["Event Participation", "Technical Skills", "Collaboration"],
+    image:
+      "https://drive.google.com/file/d/1neMfE9zdE7IPfJQ6XmuXZcq-3pn3_BfA/view",
+    certificate_link:
+      "https://drive.google.com/file/d/1neMfE9zdE7IPfJQ6XmuXZcq-3pn3_BfA/view",
+  },
+
+  {
+    id: 8,
+    title: "DEKATHON 3.0 Hackathon",
+    event: "An Indo-Malaysian Hackathon on Sustainable Development Goals",
+    date: "March 5-7, 2025",
+    description:
+      "Participated in DEKATHON 3.0: An Indo-Malaysian Hackathon on Sustainable Development Goals organized by St. Thomas College of Engineering & Technology in association with Universiti Teknologi MARA Malaysia, APJ Abdul Kalam Technological University, and Kerala Startup Mission.",
+    skills: [
+      "Hackathon Participation",
+      "Team Collaboration",
+      "Sustainable Development",
+    ],
+    image:
+      "https://drive.google.com/file/d/1z1XQ4BNeEmDLxYHH3smTYdhpkcVEzx6a/view?usp=drive_link",
+    certificate_link:
+      "https://drive.google.com/file/d/1z1XQ4BNeEmDLxYHH3smTYdhpkcVEzx6a/view?usp=drive_link",
+  },
 ];
 
 export const education = [
@@ -285,7 +318,7 @@ export const education = [
     img: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
     school: "KONGU ENGINEERING COLLEGE, PERUNDURAI, ERODE",
     date: "Nov 2022 - Sep 2026",
-    grade: "7.45 CGPA*",
+    grade: "7.83 CGPA*",
     desc: "I am currently pursuing a Bachelor's degree in Information Technology (BTech) at Kongu Engineering College. I am in my 6th semester and actively maintaining a strong academic record. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Big Data Analytics, and Computer Networks, among others. I am passionate about technology and its applications, consistently working on innovative projects and staying engaged in the latest trends in IT.",
     degree: "Bachelor of Technology - BTech, Information Technology",
   },
@@ -303,7 +336,7 @@ export const education = [
     img: "../images/schoolimage.jpeg",
     school: "Carmel Matric Her Sec School, Erode",
     date: "Apr 2018 - Apr 2019",
-    grade: "60%",
+    grade: "59.60%",
     desc: "I completed my class 10 education at Carmel Matric Her Sec School, Erode.",
     degree: " X , Science with Computer",
   },
@@ -318,14 +351,8 @@ export const projects = [
     date: "December 2023",
     description:
       "React Calculator is a simple and interactive web application for performing basic mathematical calculations. Built using React.js, it highlights state management and a responsive user interface.",
-    image:
-      "https://your-image-url.com/react_calculator.jpg", // Replace with an appropriate image URL
-    tags: [
-      "React Js",
-      "JavaScript",
-      "CSS",
-      "HTML",
-    ],
+    image: "https://your-image-url.com/react_calculator.jpg", // Replace with an appropriate image URL
+    tags: ["React Js", "JavaScript", "CSS", "HTML"],
     category: "web app",
     github: "https://github.com/nadin-c/React_Calculator",
     webapp: "https://your-deployed-app-link.com", // Replace with the deployed app link if available
@@ -337,8 +364,7 @@ export const projects = [
     date: "June 2024",
     description:
       "Age Calculator is a user-friendly web application designed to calculate a person's age based on their date of birth. This project demonstrates proficiency in JavaScript for date manipulation and React.js for building an interactive interface.",
-    image:
-      "https://your-image-url.com/age_calculator.jpg", // Replace with an appropriate image URL
+    image: "https://your-image-url.com/age_calculator.jpg", // Replace with an appropriate image URL
     tags: ["Flutter", "Dart"],
     category: "web app",
     github: "https://github.com/nadin-c/age_calculator",
@@ -351,8 +377,7 @@ export const projects = [
     date: "June 2024",
     description:
       "The Expense Management System is a comprehensive web application designed to track and manage personal or organizational expenses effectively. It features user-friendly interfaces, real-time data visualization, and robust functionalities for adding, editing, and categorizing expenses.",
-    image:
-      "https://your-image-url.com/expense_management_system.jpg", // Replace with an appropriate image URL
+    image: "https://your-image-url.com/expense_management_system.jpg", // Replace with an appropriate image URL
     tags: [
       "JavaScript",
       "CSS",
@@ -373,14 +398,8 @@ export const projects = [
     date: "August 2024",
     description:
       "QR Code Generator is a web application that allows users to generate QR codes for any given URL, text, or contact information. The application offers a clean and simple interface with real-time QR code generation functionality.",
-    image:
-      "https://your-image-url.com/qr_code_generator.jpg", // Replace with an appropriate image URL
-    tags: [
-      "React Js",
-      "JavaScript",
-      "CSS",
-      "HTML",
-    ],
+    image: "https://your-image-url.com/qr_code_generator.jpg", // Replace with an appropriate image URL
+    tags: ["React Js", "JavaScript", "CSS", "HTML"],
     category: "web app",
     github: "https://github.com/nadin-c/QrCode_Generator",
     webapp: "https://your-deployed-app-link.com", // Replace with the deployed app link if available
@@ -392,8 +411,7 @@ export const projects = [
     date: "September 2024",
     description:
       "The SAP Point Calculator - Student Portal is a specialized web application designed for students to calculate their SAP points efficiently. This portal simplifies the point computation process, ensuring accuracy and providing an intuitive user interface tailored for academic purposes.",
-    image:
-      "https://your-image-url.com/sap_point_calculator.jpg", // Replace with an appropriate image URL
+    image: "https://your-image-url.com/sap_point_calculator.jpg", // Replace with an appropriate image URL
     tags: [
       "Bootstrap",
       "JavaScript",
@@ -414,8 +432,7 @@ export const projects = [
     date: "September 2024",
     description:
       "The Book Store Management System is a web application designed to streamline book inventory management, facilitate sales tracking, and enhance the overall operational efficiency of a book store. It provides features for adding, updating, and removing books, along with search and filtering functionalities.",
-    image:
-      "https://your-image-url.com/book_store_management.jpg", // Replace with an appropriate image URL
+    image: "https://your-image-url.com/book_store_management.jpg", // Replace with an appropriate image URL
     tags: [
       "React Js",
       "JavaScript",
@@ -436,8 +453,7 @@ export const projects = [
     date: "November 2024",
     description:
       "Contact Manager is a full-stack web application that enables users to efficiently store, search, and manage their contacts. The application includes features for adding, editing, deleting contacts, and supports real-time updates with a user-friendly interface.",
-    image:
-      "https://your-image-url.com/contact_manager.jpg", // Replace with an appropriate image URL
+    image: "https://your-image-url.com/contact_manager.jpg", // Replace with an appropriate image URL
     tags: [
       "React Js",
       "JavaScript",
@@ -466,7 +482,6 @@ export const projects = [
   //   github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
   //   webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
   // },
-
 ];
 
 export const TimeLineData = [

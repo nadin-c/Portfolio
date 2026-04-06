@@ -127,14 +127,14 @@ const Skills = () => {
         <Desc> Over the past 2 years, I have been honing my skills in various domains, gaining hands-on experience and practical knowledge. Below are the areas I excel in and continue to grow my expertise.
         </Desc>
         <SkillsContainer>
-          {skills.map((skill) => (
+          {skills.map((skill, index) => (
             <Skill>
-              <SkillTitle>{skill.title}</SkillTitle>
+              <SkillTitle>{skill.title || index }</SkillTitle>
               <SkillList>
-                {skill.skills.map((item) => (
+                {skill.skills.map((item, index) => (
                   <SkillItem>
                     <SkillImage src={item.image} />
-                    {item.name}
+                    {item.name || index}
                   </SkillItem>
                 ))}
               </SkillList>
